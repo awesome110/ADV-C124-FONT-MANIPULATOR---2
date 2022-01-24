@@ -1,0 +1,21 @@
+.title {
+    font-size:30px;
+    color:white;
+}
+.title_span {
+    color:black;
+    font-size:15px;
+}
+.full_title {
+    box-shadow:4px 4px 10px black;
+}
+canvas {
+    border-radius:20px;
+    box-shadow:4px 4px 10px grey;
+    animation-name:animate;
+    animation-iteration-count:infinite;
+}
+@keyframes animate {
+    from{border:5px solid blue;}
+    to{border:5px solid red;}
+}
